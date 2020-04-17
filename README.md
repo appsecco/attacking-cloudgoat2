@@ -19,8 +19,8 @@ The book is written in markdown format, you can use Gitbook to host a local copy
 
 ### Steps to do this
 
-1. install gitbook-cli (`npm install gitbook-cli -g`)
-2. cd into the `documentation` folder
+1. Install gitbook-cli (`npm install gitbook-cli -g`)
+2. `cd` into the `documentation` folder
 3. `gitbook serve`
 4. Browse to `http://localhost:4000`
 
