@@ -1,5 +1,7 @@
 # Attacking CloudGoat 2
 
+!(attacking-cloudgoat-banner)(github-images/banner.png)
+
 ## What is this book about?
 
 This book aims to be a step-by-step walkthrough of CloudGoat 2.0 scenarios.
