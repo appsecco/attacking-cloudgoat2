@@ -3,6 +3,7 @@
 > <p><span style="color:red"><em>Warning #1: While you can use free-tier AWS services as much as possible to deploy CloudGoat scenarios, you can expect some minimal account charges</em></span>.</p>
 
 > <p><span style="color:red"><em>Warning #2: CloudGoat creates intentionally vulnerable AWS resources into your account. DO NOT deploy CloudGoat in a production environment or alongside any sensitive AWS resources.</em></span>.</p>
+
 > <p><span style="color:red"><em>Warning #3: CloudGoat can only manage resources it creates. If you create any resources yourself in the course of a scenario, you should remove them manually before running the destroy command.</em></span>.</p>
 
 
