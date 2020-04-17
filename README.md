@@ -15,18 +15,19 @@ The intended audience for this book are -
 
 ## Setting up the book
 
-The book is written in markdown format, you can use Gitbook to host a local copy.
+The book is written in markdown format, you can use [mdBook](https://github.com/rust-lang/mdBook) to host a local copy.
 
 ### Steps to do this
 
-1. Install gitbook-cli (`npm install gitbook-cli -g`)
+1. Install Rust by following the instructions at https://www.rust-lang.org/tools/install
+2. Install mdBook (`cargo install mdbook`)
 2. `cd` into the `documentation` folder
-3. `gitbook serve`
-4. Browse to `http://localhost:4000`
+3. `mdbook serve`
+4. Browse to `http://localhost:3000`
 
 ## License
 
-- The Gitbook contents are released under [Creative Commons Attribution Share Alike 4.0 International](CC-BY-SA-LICENSE.txt)
+- The book contents are released under [Creative Commons Attribution Share Alike 4.0 International](CC-BY-SA-LICENSE.txt)
 - Any code, script, commands are release under [MIT License](MIT-LICENSE.txt)
 
 ## Reader feedback
