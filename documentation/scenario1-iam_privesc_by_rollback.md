@@ -1,4 +1,4 @@
-# Scenario 1
+# Scenario 1 - IAM Privilege Escalation By Rollback
 
 iam_privesc_by_rollback
 

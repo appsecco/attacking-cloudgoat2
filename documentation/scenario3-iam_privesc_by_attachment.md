@@ -1,4 +1,4 @@
-# Scenario 3
+# Scenario 3 - IAM Privilege Escalation By Attachment
 
 iam_privesc_by_attachment
 

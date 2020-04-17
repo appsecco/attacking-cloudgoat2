@@ -1,4 +1,4 @@
-# Scenario 2
+# Scenario 2 - Cloud Breach s3
 
 cloud_breach_s3
 
@@ -117,9 +117,6 @@ For further calls, we will use the security token obtained as part of the HTTP r
 ## Destroy the scenario resources
 
         python3 cloudgoat.py destroy cloud_breach_s3
-
-## References
-
 - [IAM Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
 - [Instance Metadata and User Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
 - [Retrieving Instance Metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)
@@ -127,3 +124,6 @@ For further calls, we will use the security token obtained as part of the HTTP r
 - [Instance Metadata API: A Modern Day Trojan Horse](https://redlock.io/blog/instance-metadata-api-a-modern-day-trojan-horse)
 - [Trust No One: The Perils of Trusting User Input](https://www.nginx.com/blog/trust-no-one-perils-of-trusting-user-input/)
 - [Getting started with Version 2 of AWS EC2 Instance Metadata service (IMDSv2)](https://blog.appsecco.com/getting-started-with-version-2-of-aws-ec2-instance-metadata-service-imdsv2-2ad03a1f3650)
+## References
+
+
