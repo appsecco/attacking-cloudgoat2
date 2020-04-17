@@ -177,6 +177,8 @@ Notice that the `cg-ec2-mighty-role-<CLOUD_GOAT_ID>` IAM Role basically gave the
         aws ec2 describe-instances --region us-east-1
         aws ec2 terminate-instances --instance-ids <instanceId> --region us-east-1
 
+![terminating-target-ec2](imgs/scenario3-12.png)
+
 ## Destroy the scenario
 
 
