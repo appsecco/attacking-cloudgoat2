@@ -22,7 +22,7 @@ The book is written in markdown format, you can use [mdBook](https://github.com/
 ### Steps to do this
 
 1. Install Rust by following the instructions at https://www.rust-lang.org/tools/install
-2. Install mdBook (`cargo install mdbook`)
+2. Install mdBook (`cargo install mdbook`) or download binaries from [https://github.com/rust-lang/mdBook/releases](https://github.com/rust-lang/mdBook/releases)
 2. `cd` into the `documentation` folder
 3. `mdbook serve`
 4. Browse to `http://localhost:3000`
