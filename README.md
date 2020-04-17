@@ -1,6 +1,6 @@
 # Attacking CloudGoat 2
 
-!(attacking-cloudgoat-banner)(github-images/banner.png)
+![attacking-cloudgoat-banner](github-images/banner.png)
 
 ## What is this book about?
 
