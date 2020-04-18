@@ -1,7 +1,5 @@
 # Scenario 2 - Cloud Breach s3
 
-cloud_breach_s3
-
 ## What is the scenario
 
 The scenario begins with an IP address.

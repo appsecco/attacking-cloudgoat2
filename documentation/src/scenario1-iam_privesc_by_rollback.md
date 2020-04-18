@@ -1,7 +1,5 @@
 # Scenario 1 - IAM Privilege Escalation By Rollback
 
-iam_privesc_by_rollback
-
 ## What is the scenario
 
 The scenario begins with IAM User "Raynor" security credentials.

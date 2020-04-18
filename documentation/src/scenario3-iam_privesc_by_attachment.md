@@ -1,7 +1,5 @@
 # Scenario 3 - IAM Privilege Escalation By Attachment
 
-iam_privesc_by_attachment
-
 ## What is the scenario
 
 The scenario begins with IAM User "Kerrigan" security credentials.
