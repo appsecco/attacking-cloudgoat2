@@ -239,6 +239,12 @@ Once we are connected to the database, we can use commands to extract the secret
 ![secrets-in-db](imgs/scenario6-8.png)
 
 
+## Destroy the scenario resources
+
+> <p><span style="color:red"><em>Note: In this scenario you created some AWS resources manually (RDS Instance, RDS Snapshot etc). CloudGoat can only manage resources it creates, you should remove the resources you created manually before running cloudgoat destroy.</em></span>.</p>
+
+        python3 cloudgoat.py destroy codebuild_secrets
+
 ## References 
 
 - [AWS CodeBuild](https://aws.amazon.com/codebuild/)

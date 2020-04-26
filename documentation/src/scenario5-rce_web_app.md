@@ -158,6 +158,10 @@ If you find a command injection issue in an application on the EC2 instance then
 
 The User Data on the EC2 contains set of commands to connect to RDS instance from the EC2 instance. The command contains the credentials and endpoint for RDS Instance. The file also reveals the secret that is stored on the RDS instance.
 
+## Destroy the scenario resources
+
+        python3 cloudgoat.py destroy rce_web_app
+
 ## References
 
 - [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
