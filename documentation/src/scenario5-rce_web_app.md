@@ -156,7 +156,7 @@ If you find a command injection issue in an application on the EC2 instance then
 
 ![elb-ec2-user-data](imgs/scenario5-15.png)
 
-The User Data command to connect to RDS instance from the EC2 instance. The command contains the credentials and endpoint for RDS Instance. The file also reveals the secret that is stored on the RDS instance.
+The User Data on the EC2 contains set of commands to connect to RDS instance from the EC2 instance. The command contains the credentials and endpoint for RDS Instance. The file also reveals the secret that is stored on the RDS instance.
 
 ## References
 
