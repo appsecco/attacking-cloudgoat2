@@ -27,6 +27,15 @@ The book is written in markdown format, you can use [mdBook](https://github.com/
 3. `mdbook serve`
 4. Browse to `http://localhost:3000`
 
+## Quick reference
+
+- [Scenario 1 - IAM Privilege Escalation By Rollback](documentation/src/scenario1-iam_privesc_by_rollback.md)
+- [Scenario 2 - Cloud Breach s3](documentation/src/scenario2-cloud_breach_s3.md)
+- [Scenario 3 - IAM Privilege Escalation By Attachment](documentation/src/scenario3-iam_privesc_by_attachment.md)
+- [Scenario 4 - EC2 SSRF](documentation/src/scenario4-ec2_ssrf.md)
+- [Scenario 5 - RCE Web App](documentation/src/scenario5-rce_web_app.md)
+- [Scenario 6 - CodeBuild Secrets](documentation/src/scenario6-codebuild_secrets.md)
+
 ## License
 
 - The book contents are released under [Creative Commons Attribution Share Alike 4.0 International](CC-BY-SA-LICENSE.txt)
