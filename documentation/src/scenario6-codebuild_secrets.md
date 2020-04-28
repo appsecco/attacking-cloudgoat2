@@ -14,7 +14,7 @@ More scenario details - https://github.com/RhinoSecurityLabs/cloudgoat/blob/mast
 
 ## Walkthrough
 
-There are multiple routes to completing this secenario. We'll cover them independently.
+There are multiple routes to completing this scenario. We'll cover them independently.
 
 ### Exploitation Route - 1
 
@@ -72,7 +72,7 @@ Let's check if there are any RDS instances in the AWS account.
 
 There is an RDS instance in the AWS account that is using "PostgreSQL" but it is not publicly accessible. This is our target RDS instance on which the secrets are stored in "securedb" database.
 
-There are various ways to continue our exploitation but let's try to create a snapshot of the running RDS instance and then we will use to snapshot to create another RDS instance that we can control, from which we can extra the secrets.
+There are various ways to continue our exploitation but let's try to create a snapshot of the running RDS instance and then we will use to snapshot to create another RDS instance that we can control, from which we can extract the secrets.
 
 Let's create a snapshot of the running RDS instance.
 
@@ -95,7 +95,7 @@ Let's create an RDS instance from the snapshot. For us to be able to access the 
         --query "SecurityGroups[?contains(Description,'RDS')]" \
         --profile calrissian
 
-Now we have the information required to create an RDS instance from the snapshot appropriately. Let's create an RDS instance from the snapshot.
+We have gathered all the information required to create an RDS instance from the snapshot appropriately so that we can access it publicly. Let's create an RDS instance from the snapshot.
 
         aws rds restore-db-instance-from-db-snapshot \
         --db-instance-identifier secrets-instance \
@@ -125,7 +125,7 @@ Now that we have all the information required to connect to the RDS instance, we
         sudo apt install postgresql-client
         psql -h <INSTANCE-PUBLIC-DNS-NAME> -p 5432 -d securedb -U cgadmin
 
-Once we are connected to the database, we can use commands to extract the secrets.
+Once we are connected to the database, we can use PostgreSQL commands to extract the secrets.
 
         \dt
         select * from sensitive_information;
@@ -182,7 +182,7 @@ We are in luck because there is one EC2 instance that uses this SSH Key Pair. Le
         chmod 400 private-key 
         ssh -i private-key ubuntu@<PUBLIC_IP_OF_EC2_INSTANCE>
 
-We were able to SSH into the SSH instance. There are two successuful ways to get to our objective of finding a pair of secret strings stored in a secure RDS database.
+We were able to SSH into the SSH instance. There are two successful ways to get to our objective of finding a pair of secret strings stored in a secure RDS database.
 
 #### Route 2.1
 
